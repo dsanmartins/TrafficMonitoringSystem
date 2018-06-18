@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CommunicatorUtil
+Bundle-SymbolicName: se.lnu.trafficmonitoring.communicatorutil
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: se.lnu.trafficmonitoring.communicator
+Export-Package: se.lnu.trafficmonitoring.communicatorutil

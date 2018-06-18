@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<extension point="org.eclipse.equinox.http.registry.servlets">
+	<servlet alias="/environment" class="se.lnu.trafficmonitoring.services.EnvironmentServlet" />
+	<servlet alias="/camera" class="se.lnu.trafficmonitoring.services.CameraServlet" />
+	<servlet alias="/organization" class="se.lnu.trafficmonitoring.services.OrganizationServlet" />
+	</extension>
+</plugin>
